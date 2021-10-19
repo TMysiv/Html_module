@@ -1,0 +1,125 @@
+.header{
+    background: #cb6969;
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.a{
+    background: #4b4bb6;
+    width: 150px;
+    height: 50px;
+}
+.father{
+    width: 1000px;
+    height: 800px;
+    background: cornflowerblue;
+    display: flex;
+}
+.menu{
+    width: 200px;
+    background: #27a627;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding-top: 20px;
+}
+.b{
+    width: 150px;
+    background: #4b4bb6;
+    height: 50px;
+    margin-left: 20px;
+}
+.mother{
+    background:antiquewhite ;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+}
+.child_one{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.third{
+    background: #c9710d;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.g{
+    background: #4b4bb6;
+    height: 80px;
+    width: 760px ;
+}
+.fourth{
+    background: #8f8f86;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.c{
+    background: #4b4bb6;
+    height: 150px;
+    width: 150px;
+}
+.child_two{
+    background: #7d935e;
+    height: 400px;
+    display: flex;
+}
+.fifth{
+    background: #ee00ff;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    justify-content: space-evenly;
+    row-gap: 10px;
+
+}
+.d{
+    background: #4b4bb6;
+    width: 150px;
+    height: 90px;
+}
+
+.sixth{
+    background: cornflowerblue;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+}
+.e{
+    background: #4b4bb6;
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+}
+.seventh{
+    background: coral;
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+.q{
+    background: #4b4bb6;
+    width: 700px;
+    height: 40px;
+}
+.w{
+    background: #4b4bb6;
+    width: 200px;
+    height: 40px;
+}
