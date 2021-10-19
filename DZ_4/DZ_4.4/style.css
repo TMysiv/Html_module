@@ -1,0 +1,38 @@
+.header{
+    background: blue;
+    width: 1000px;
+    height: 100px;
+    line-height: 100px;
+    }
+.nav{
+    background: #4b4bb6;
+    width: 1000px;
+    height: 50px;
+    line-height: 50px;
+}
+.father{
+    background: #e6ff00;
+    width: 1000px;
+    height: 300px;
+    display: flex;
+}
+.main{
+        background: #da0d0d;
+    flex-grow: 4;
+    line-height: 300px;
+}
+.aside{
+    background: green;
+    flex-grow: 1;
+    line-height: 300px;
+}
+.footer{
+    background: #cb6969;
+    width: 1000px;
+    height: 50px;
+    line-height: 50px;
+}
+.c{
+    color: white;
+    text-align: center;
+}

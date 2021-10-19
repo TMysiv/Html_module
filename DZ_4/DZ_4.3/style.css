@@ -1,0 +1,23 @@
+.a{
+    width: 1000px;
+    height: 200px;
+    background: blue;
+    text-align: center;
+    line-height: 200px;
+}
+.father{
+    /*background: #a21515;*/
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+.b{
+    background: #e6ff00;
+    width: 500px;
+    height: 260px;
+    text-align: center;
+    line-height: 260px;
+
+}

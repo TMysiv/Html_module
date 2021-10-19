@@ -1,0 +1,32 @@
+.father{
+    width: 1000px;
+    height: 560px;
+    background: gray;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+
+
+}
+.a{
+    width: 1000px;
+    height: 200px;
+    background: yellow;
+    text-align: center;
+    line-height: 200px;
+
+}
+.b{
+    width: 700px;
+    height: 300px;
+    background: green;
+    text-align: center;
+    line-height: 300px;
+}
+.c{
+    width: 280px;
+    height: 300px;
+    background: cornflowerblue;
+    text-align: center;
+    line-height: 300px;
+}
