@@ -1,0 +1,44 @@
+.father{
+    /*background: #cb6969;*/
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    }
+.a{
+    background: #e6ff00;
+    width: 1000px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+}
+.mother{
+    /*background: green;*/
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    column-gap: 10px;
+    }
+.child{
+    /*background: cornflowerblue;*/
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+
+}
+.b{
+    background: brown;
+    width: 250px;
+    height: 280px;
+    text-align: center;
+    line-height: 200px;
+}
+.h{
+    background: #c9710d;
+    width: 200px;
+    text-align: center;
+    line-height: 500px;
+}

@@ -1,0 +1,53 @@
+.father{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+}
+.a{
+    background: #8126bd;
+    width: 1000px;
+    height: 300px;
+    text-align: center;
+    line-height: 300px;
+}
+.mother{
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    margin-top: 10px;
+    column-gap: 10px;
+}
+.child{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+.f {
+    background: cadetblue;
+    width: 300px;
+    text-align: center;
+    line-height: 300px;
+}
+.b{
+    background: green;
+    width: 700px;
+    height: 200px;
+    text-align: center;
+    line-height: 300px;
+}
+.werty{
+    /*background: chocolate;*/
+    width: 700px;
+    height:300px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.c{
+    width: 230px;
+    height: 290px;
+    background: blue;
+    text-align: center;
+    line-height: 300px;
+}
