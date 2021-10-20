@@ -1,0 +1,238 @@
+header{
+    background: #c9c5c5;
+    width: 1000px;
+    height: 200px;
+    display: flex;
+
+}
+.b{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.round{
+    background: grey;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.a{
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.c{
+    background:grey ;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+.hero{
+    background:#c9c5c5 ;
+    width: 1000px;
+    height: 500px;
+}
+.d{
+    width: 1000px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+.one{
+    background:grey ;
+    width: 300px;
+    height: 50px;
+}
+.two{
+    background:grey ;
+    width: 500px;
+    height: 50px;
+}
+.e{
+    width: 1000px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
+.three{
+    width: 500px;
+    background: white;
+    height: 100px;
+    border-radius: 40px;
+    margin-top: 80px;
+}
+.four{
+    width: 300px;
+    background:grey ;
+    height: 100px;
+    border-radius: 40px;
+    margin-top: 80px;
+}
+.destination{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+}
+.f{
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+.q{
+    width: 600px;
+    height: 80px;
+    background: grey;
+}
+.w{
+    width: 500px;
+    height: 60px;
+    background: grey;
+}
+.r{
+    width: 400px;
+    height: 40px;
+    background: grey;
+}
+.g{
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+
+}
+.t{
+    width: 315px;
+    background: #c9c5c5;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+.y{
+    width: 660px;
+    background: #c9c5c5;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+.o{
+    background: grey;
+    width: 200px;
+    height: 30px;
+}
+.p{
+    background: grey;
+    width: 150px;
+    height: 30px;
+}
+.z{
+    background: grey;
+    width: 400px;
+    height: 30px;
+}
+.x{
+    background: grey;
+    width: 300px;
+    height: 30px;
+}
+.offers{
+    width: 1000px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+.v{
+    width: 1000px;
+    height: 700px;
+    display: flex;
+
+}
+.m{
+    width: 350px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.n{
+    width: 300px;
+    height: 150px;
+    background: #c9c5c5;
+}
+.k{
+    width: 650px;
+    height:700px ;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.qwe{
+    width: 650px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: space-between;
+
+
+}
+.as{
+    background: grey;
+    width: 400px;
+    height: 30px;
+}
+
+.ad{
+    background: grey;
+    width: 300px;
+    height: 30px;
+}
+.av{
+    background: grey;
+    width: 200px;
+    height: 30px;
+}
+.ab{
+    background: grey;
+    width: 100px;
+    height: 30px;
+}
+footer{
+    background: #c9c5c5;
+    width: 1000px;
+    height: 200px;
+    display: flex;
+}
+.zx{
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.cv{
+    width: 150px;
+    height: 20px;
+    background: grey;
+}
