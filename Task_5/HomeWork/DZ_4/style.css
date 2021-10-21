@@ -1,0 +1,33 @@
+.w1000{
+    width: 1000px;
+}
+.h200{
+    height: 200px;
+}
+.text{
+    text-align: center;
+    line-height: 200px;
+    color: white;
+    font-size: 40px;
+}
+.header{
+    background: #313186;
+}
+.nav{
+    background: #9c9cc9;
+}
+.footer{
+    background: #21a5cc;
+}
+.father{
+    height: 500px;
+    display: flex;
+}
+.main{
+    background: #0983da;
+    flex-grow: 3;
+}
+.aside{
+    background: #0964f1;
+    flex-grow: 1;
+}

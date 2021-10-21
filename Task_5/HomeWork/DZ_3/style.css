@@ -1,0 +1,28 @@
+.col-blue{
+    background: #afaff1;
+}
+.w1000{
+    width: 1000px;
+}
+.head{
+    height: 300px;
+}
+.text{
+    text-align: center;
+    line-height: 200px;
+}
+.father{
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.medium{
+    height: 350px;
+    width: 300px;
+    background: #34349a;
+}
+.foot{
+    height: 200px;
+}
+

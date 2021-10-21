@@ -1,0 +1,90 @@
+.size{
+    width: 1000px;
+    height: 500px;
+}
+.col-blue{
+    background: #2f3d6b;
+}
+.col-grey{
+    background: #eeeaea;
+}
+.radius{
+    border-radius: 15%;
+}
+.flex{
+    display: flex;
+}
+.header{
+    justify-content: center;
+    align-items: center;
+}
+.father{
+    width: 900px;
+    height: 450px;
+    border: 10px solid #18d7de;
+    justify-content: space-around;
+    align-items: center;
+}
+.square{
+    width: 200px;
+    height: 300px ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.box{
+    width: 150px;
+    height: 150px;
+}
+.straight{
+    width: 200px;
+    height: 50px;
+    column-gap: 5px;
+    justify-content: center;
+}
+.big{
+    width: 80px;
+    height: 10px;
+}
+.small{
+    width: 50px;
+    height: 10px;
+}
+.footer{
+    justify-content: center;
+    align-items: center;
+}
+.mother{
+    width: 250px;
+    height: 450px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.round{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.werty{
+    width: 200px;
+    height: 50px;
+    column-gap: 10px;
+    margin-top: 30px;
+}
+.line{
+    width: 90px;
+    height: 10px;
+}
+.zxcv{
+    width: 200px;
+    height: 50px;
+    column-gap: 10px;
+}
+.small-line{
+    width: 60px;
+    height: 10px;
+}
+.center{
+    border: 10px solid #18d7de;
+}
