@@ -1,0 +1,137 @@
+@media screen and (max-width: 1030px){
+    .medium__wrap{
+        width: 400px;
+    }
+    .medium__wrap_box{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 1000px ){
+    .main{
+        height: 800px;
+    }
+    .medium__wrap{
+        width: 350px;
+    }
+    .medium__wrap_box{
+        width: 350px;
+    }
+    .foot__box{
+        width: 220px;
+    }
+    .footer__round{
+        margin-left: 140px;
+    }
+    li{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 760px ){
+    .main{
+        height: 1100px;
+    }
+    .square__box{
+        display: none;
+    }
+
+    .medium__wrap{
+        width: 250px;
+    }
+    .medium__wrap_box{
+        width: 250px;
+    }
+    .foot__box{
+        width: 150px;
+        height: 150px;
+    }
+    .foot{
+        height: 200px;
+    }
+    .footer{
+        height: 150px;
+        font-size: 15px;
+    }
+    .footer__round{
+        width: 100px;
+        height: 100px;
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    li{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 600px){
+    .header h1{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .main{
+        height: 1600px;
+    }
+    .medium__wrap{
+        display: none;
+    }
+    .footer{
+        display: none;
+    }
+    .foot{
+        display: none;
+    }
+    .photo{
+        display: none;}
+}
+@media screen and (min-width: 1400px){
+   .hat__box{
+       width: 70px;
+       height: 70px;
+   }
+    .hat__bottom{
+    width: 200px;
+    height: 80px;
+    }
+    .header h1{
+        font-size: 60px;
+    }
+    .main{
+        height: 1000px;
+    }
+    .main__wrap{
+        width: 350px;
+        height: 350px;
+    }
+    .main__wrap_box{
+        width: 300px;
+        height: 300px;
+    }
+    .medium__wrap{
+        width: 600px;
+        height:400px ;
+    }
+    .medium__wrap_box{
+        width: 600px;
+        height: 300px;
+    }
+    .medium{
+        height: 800px;
+    }
+    .foot__box{
+        width: 400px;
+        height: 300px;
+    }
+    .foot{
+        height: 350px;
+    }
+    .footer{
+        height: 250px;
+        font-size: 22px;
+    }
+    .footer__round{
+        width: 200px;
+        height: 200px;
+    }
+}
+
