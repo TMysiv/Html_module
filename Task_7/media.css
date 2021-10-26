@@ -52,4 +52,28 @@
         height: 280px;
 
     }
+    .main{
+        flex-direction: column;
+    }
+    .main__history{
+        padding-top: 500px;
+        row-gap: 50px;
+    }
+    .main__history h2{
+        font-size: 40px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .main__photo img{
+        width: 100%;
+    }
+    .main__history_point{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .main__photo{
+        margin-top: 50px
+    }
 }

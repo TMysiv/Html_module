@@ -8,6 +8,9 @@
 .col-grey{
     background: #eeeaea;
 }
+body{
+    display: flex;
+flex-direction: column}
 .col-green{
     background: #18d7de;
 }
