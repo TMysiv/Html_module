@@ -1,4 +1,4 @@
-@media screen and (max-width: 400px){
+@media screen and (max-width: 325px){
     .header__nav{
         display: none;
     }
@@ -22,7 +22,7 @@
         max-width: 320px;
         height: 167px;
         padding-left: 22px;
-        padding-top: 200px;
+        padding-top: 250px;
         row-gap: 10px;
         align-items: center;
     }
@@ -41,7 +41,6 @@
     }
     .header__wrap-box{
         position: absolute;
-        height: 100vh;
         display: flex;
         flex-direction: column;
         margin: 202px 15px 0 15px;
@@ -75,5 +74,67 @@
     }
     .main__photo{
         margin-top: 50px
+    }
+    .zakaz{
+        margin-top: 0;
+    }
+    .zakaz__wrap{
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+        padding: 0 20px;
+    }
+    .zakaz h2{
+        font-size: 30px;
+    }
+    .zakaz span{
+        font-size: 24px;
+    }
+    .zakaz__button {
+        width: 139px;
+        height: 43px;
+        font-size: 14px;
+    }
+    .dishes h2{
+        font-size: 40px;
+        margin-top: 60px;
+        width: 170px;
+        margin-left: 70px;
+    }
+    .dishes__wrap{
+        margin-top: 70px;
+        flex-direction: column;
+
+    }
+    .burger span{
+        display: none;
+
+    }
+    .burger p{
+        font-size: 22px;
+
+    }
+    .burger img{
+        display: block;
+        width: 170px;
+        height: 113px;
+        margin-left: 10px;
+    }
+    .dishes__wrap{
+        row-gap: 50px;
+    }
+    .burger{
+        column-gap: 0px;
+    }
+    .menu__wrap {
+        margin-top: 100px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .first{
+        width: 290px;
+    }
+    .second{
+        display: none;
     }
 }

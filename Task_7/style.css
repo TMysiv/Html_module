@@ -167,7 +167,7 @@ table {
 }
 .header__wrap-box{
     position: relative;
-    height: 350px;
+
     margin:125px 150px 0 150px;
     column-gap: 30px;
 
@@ -183,6 +183,7 @@ table {
     align-items: center;
     padding-top: 35px;
      row-gap: 20px;
+    height: 350px;
 }
 .img{
     width: 126px;
@@ -252,4 +253,138 @@ table {
 .number span{
     font-size: 20px;
     color: black;
+}
+.zakaz{
+    background: url("images/bg.jpg") no-repeat center/cover;
+    margin-top: 122px;
+}
+.zakaz__wrap{
+    margin: 0 auto;
+    max-width: 1200px;
+    justify-content: space-between;
+    height: 357px;
+    align-items: center;
+
+}
+.zakaz__text{
+    max-width: 600px;
+
+}
+.zakaz h2{
+    color: #D67E34;
+    font-size: 52px;
+
+}
+.zakaz span{
+    color: white;
+    font-size: 24px;
+}
+.zakaz__button{
+    width: 157px;
+    height: 47px;
+    background:#FF7400 ;
+    justify-content: center;
+    align-items: center;
+}
+.zakaz__button a{
+    text-decoration: none;
+    color: white;
+}
+.dishes h2{
+    text-align: center;
+    font-size: 54px;
+    margin-top: 132px;
+}
+.dishes span{
+    color:#FF7400  ;
+}
+.dishes__wrap{
+    margin: 0 auto;
+    max-width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+}
+.dishes__wrap_burger{
+
+    flex-direction: column;
+    row-gap: 30px;
+
+}
+.burger{
+    column-gap: 30px;
+    align-items: center;
+    font-size: 26px;
+}
+.menu{
+    background: url("images/bar-1869656_1920 2.jpg") no-repeat center/cover;
+    margin-top: 150px;
+    height: 1034px;
+}
+.menu h2{
+    font-size: 54px;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+
+}
+.menu__wrap{
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 140px;
+
+}
+.menu__wrap_box{
+    flex-direction: column;
+    background: white;
+    align-items: center;
+    row-gap: 20px;
+    text-align: center;
+}
+.menu__wrap_box h3{
+    font-size: 26px;
+}
+.menu__wrap_box span{
+    font-size: 16px;
+    width: 180px;
+}
+
+.menu__wrap_box img{
+    padding: 80px 60px 0 60px;
+}
+.box_button{
+    width: 220px;
+    height: 50px;
+    background: #D67E34;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.recomended{
+    width: 125px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    background: #D67E34;
+    font-size: 13px;
+    position: absolute;
+    left:0;
+}
+.first{
+    position: relative;
+}
+.review{
+    background: #E5E5E5;
+    flex-direction: column;
+}
+.review p{
+    margin: 100px 260px 20px 260px;
+    font-size: 20px;
+    color: black;
+}
+.review img{
+    width: 149px;
+    height: 100px;
 }
