@@ -1,0 +1,104 @@
+.header{
+    height: 1000px;
+    background: url("images/HERO IMG.jpg");
+}
+.header__wrap{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__wrap_menu{
+    color: white;
+    column-gap: 50px;
+}
+.menu{
+    font-size: 14px;
+    column-gap: 23px;
+}
+.phone{
+    flex-direction: column;
+    font-size: 14px;
+    border-left:1px solid white;
+    padding-left: 20px;
+}
+.phone img{
+    width: 23px;
+    height: 23px;
+}
+.header__wrap_menu button{
+    width: 157px;
+    height: 47px;
+    background: #FF7400;
+    color: white;
+}
+.header__main{
+    max-width: 550px;
+    margin:250px  0 0 175px;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+.header__main h1{
+    font-size: 50px;
+    color:#D67E35 ;
+}
+.header__main h2{
+    font-size: 70px;
+    color:#D67E35 ;
+}
+.header__main p{
+    color: white;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.header__main p::before,
+.header__main p::after{
+    content: "";
+    background: white;
+    display: block;
+    width: 60px;
+    height: 2px;
+}
+.header__main button{
+    width: 137px;
+    height: 47px;
+    background: #FF7400;
+    color: white;
+}
+.straight{
+    width: 30px;
+    height: 3px;
+    background:#FF7400 ;
+}
+.box{
+    flex-direction: column;
+    row-gap: 5px;
+}
+.header__absolute{
+    max-width: 1200px;
+    position: absolute;
+    left: 166px;
+    top: 850px;
+    column-gap: 30px;
+}
+.absolute_box{
+    font-size: 26px;
+    flex-direction: column;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    max-width: 350px;
+    background: white;
+    text-align: center;
+    padding-top: 30px;
+
+}
+.box img{
+    width: 100px;
+    height: 100px;
+}
+.box span{
+    color:#D67E35 ;
+}
