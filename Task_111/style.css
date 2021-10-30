@@ -1,0 +1,86 @@
+.wrap{
+    margin: 0 150px;
+    padding-top: 50px;
+}
+.container-fluid{
+    background: url("images/HERO IMG.jpg") no-repeat;
+    height: 100vh;
+}
+.nav-item a{
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+}
+.btn-primary{
+    background: #FF7400;
+    width: 157px;
+    height: 47px;
+}
+.phone img{
+    width: 25px;
+    height: 25px;
+}
+.phone{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #ffffff;
+    max-width: 150px;
+
+}
+.menu{
+    border-right: 1px solid white;
+}
+.wrap__menu{
+    column-gap: 40px;
+}
+.straight{
+    width: 30px;
+    height: 3px;
+    background: #FF7400;
+
+}
+.slide-menu{
+    row-gap: 5px;
+}
+.header__text{
+    max-width: 550px;
+    margin:250px  0 0 175px;
+    row-gap: 20px;
+}
+.header__text h1{
+    font-size: 50px;
+    line-height: 57px;
+    color: #D67E35;
+}
+.header__text h2{
+    font-size: 80px;
+    line-height: 92px;
+    color: #D67E35;
+}
+.header__text{
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+}
+.header__text p::before,
+.header__text p::after{
+    content: "";
+    display: block;
+    background:#C4C4C4;
+    height: 2px;
+    width: 60px;
+    position: absolute;
+}
+.header__text p::before,
+.header__text p::after
+{
+    left: 300px;
+    top: 570px;
+}
+.header__text p::after{
+    left: 550px;
+}
