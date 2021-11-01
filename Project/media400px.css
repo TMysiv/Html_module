@@ -1,0 +1,56 @@
+@media screen and (max-width: 400px){
+    .hat__wrap{
+        column-gap: 15px;
+        font-size: 13px;
+        line-height: 15px;
+        justify-content: flex-start;
+    }
+    .hat-left img{
+        display: none;
+    }
+    header{
+        padding: 0 15px;
+    }
+    .werty{
+        display: none;
+    }
+    .top-logo img{
+        width: 40px;
+        height: 45px;
+    }
+    .logo-text h2, .top-phone h2{
+        font-size: 12px;
+    }
+    .logo-text span, .top-phone span{
+        font-size: 7px;
+    }
+    .top-Whatsapp{
+        font-size: 10px;
+        width: 140px;
+        height: 18px;
+    }
+    .top-phone{
+        align-items: flex-end;
+    }
+    .header__bottom_user{
+        display: none;
+    }
+    .header__bottom_button{
+        width: 34px;
+        height: 34px;
+    }
+    .input-group {
+        width: 310px;
+        height: 34px;
+        font-size: 8px;
+    }
+    .form-control{
+        font-size: 12px;
+    }
+    .btn-primary{
+        display: none;
+    }
+    .small-button{
+        display: flex;
+    }
+}
