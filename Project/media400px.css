@@ -53,4 +53,79 @@
     .small-button{
         display: flex;
     }
+    .main__wrap{
+        flex-direction: column;
+    }
+    .left-bar-text h1{
+        font-size: 16px;
+    }
+    .left-bar-text h2{
+        font-size: 10px;
+    }
+    .left-bar-text h3{
+        font-size: 20px;
+    }
+    .btn-secondary{
+        width: 124px;
+        height: 34px;
+        font-size: 12px;
+    }
+    .btn-secondary img{
+        display: none;
+    }
+    .left-bar img{
+        width: 147px;
+        height: 125px;
+    }
+    .left-bar-text h1,h2,h3{
+        margin-bottom: 0;
+    }
+    .left-bar-text{
+        row-gap: 0;
+    }
+    .main__wrap{
+        row-gap: 10px;
+    }
+    .right-bar{
+        flex-direction: row;
+        column-gap: 10px;
+    }
+    .second{
+        font-size: 12px;
+    }
+    .first img {
+        width: 58px;
+        height: 54px;
+    }
+    .box-1 h2{
+        font-size: 16px;
+    }
+    .box-1 p{
+        font-size: 10px;
+    }
+    .box-1 button{
+        font-size: 12px;
+        width: 72px;
+        height: 24px;
+    }
+    .medium__box-1_wrap img{
+        width: 74px;
+        height: 97px;
+    }
+    .box-1{
+        width: 180px;
+    }
+    .medium__wrap{
+        column-gap: 10px;
+    }
+    .menu{
+        display: flex;
+        position: absolute;
+        top: 670px;
+        width: 400px;
+    }
+    .section-wrap{
+        padding-top: 50px;
+    }
+
 }
