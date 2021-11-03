@@ -8,7 +8,6 @@
         padding: 10px 20px;
     }
     .top-logo img {
-        width: 55px;
         height: 60px;
     }
     .logo-text h2 {
@@ -21,14 +20,14 @@
         font-size: 16px;
     }
     .top-clock img, .top-adress img {
-        width: 20px;
         height: 20px;
     }
-    .werty {
+    .time-adress {
         flex-direction: column;
     }
-    .werty-2 {
+    .whatsapp-phone {
         flex-direction: column-reverse;
+        align-items: flex-end;
     }
     .header__top {
         padding-top: 15px;
@@ -58,31 +57,27 @@
     }
     .input-group {
         width: 340px;
-        height: 43px;
     }
     .btn-primary {
         width: 90px;
         height: 43px;
     }
+    .header__bottom_user{
+        column-gap: 50px;
+    }
     .user, .heart, .cart {
         flex-direction: column;
         width: 60px;
-        height: 50px;
         align-items: center;
-
-    }
-    .cart img {
-        width: 21px;
-        height: 21px;
     }
     .cart {
         font-size: 10px;
     }
-    .header__bottom_user{
-        column-gap: 50px;
-    }
     .img{
         display: none;
+    }
+    .left-bar-text{
+        row-gap: 15px;
     }
     .left-bar-text h1{
         font-size: 26px;
@@ -112,19 +107,23 @@
     }
     .first img{
         width: 70px;
-        height: 65px;
+    }
+    .second{
+        padding-top: 10px;
+    }
+    .top-right{
+        column-gap: 0;
+        padding: 10px;
     }
     .second h3{
         font-size: 13px;
+        line-height: 19px;
     }
     .second p{
         font-size: 10px;
     }
     .second h4{
         font-size: 18px;
-    }
-    .top-right{
-        padding: 10px;
     }
     .mini-box{
         width: 39px;
@@ -155,42 +154,64 @@
     }
     .medium__box-1_wrap img{
         width: 95px;
-        height: 125px;
     }
     .box-1{
         padding: 10px;
     }
     .medium__box-1_wrap{
-        align-items: center;
-        column-gap: 10px;
+       width: 48%;
     }
     .medium{
         margin-top: 30px;
     }
     .medium__wrap{
-        margin-left: 20px;
+        margin:0 20px;
     }
-    .section-wrap{
-        padding-top: 10px;
-        margin-left: 20px;
+    .medium__box-1_wrap{
+        justify-content: space-evenly;
     }
-    .top-first{
+    .top-first-section{
         width: 201px;
         height: 49px;
         font-size: 16px;
     }
-    .top-second{
+    .top-second-section{
         width: 108px;
         height: 49px;
         font-size: 16px;
     }
-    .top-third{
+    .top-third-section{
         width: 192px;
         height: 49px;
         font-size: 16px;
     }
     .top-section{
         column-gap: 15px;
-        padding-top: 50px;
+        margin-left: 20px;
+    }
+    .section{
+        margin-top: 50px;
+    }
+    .section__wrap{
+        padding-top: 10px;
+        margin-left: 20px;
+    }
+    .section__wrap_box{
+        width: 32%;
+    }
+    .section-down{
+        margin-left: 300px;
+    }
+    .news__wrap_box{
+        width: 33%;
+    }
+    .news__wrap_box li,a,p{
+        font-size: 14px;
+    }
+    .news__wrap{
+        margin-left: 20px;
+    }
+    .news h3{
+        margin-left: 20px;
     }
 }
