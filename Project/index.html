@@ -16,8 +16,22 @@
 <div class="hat">
     <div class="hat__wrap flex">
         <div class="hat__wrap_left flex">
-            <div class="hat-left"><img src="images/placeholder%201.png" alt="navigation">Ваш город:
-                <span>Москва</span></div>
+            <div class="dropdown">
+                <button class="btn btn-light city flex " type="button" id="dropdownMenuButton4" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="images/placeholder%201.png" alt="placeholder"> Ваш город: <u>Москва</u>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <h6>Виберите свой город</h6>
+                    <div class="input-group input-group-sm">
+                        <input type="text" class="form-control" aria-label="Small input group" aria-describedby="input-group-sm">
+                    </div>
+                    <li><a class="dropdown-item" href="#">Москва</a></li>
+                    <li><a class="dropdown-item" href="#">Краснодар</a></li>
+                    <li><a class="dropdown-item" href="#">Екатеринбург</a></li>
+                    <li><a class="dropdown-item" href="#">Самара</a></li>
+                    <li><a class="dropdown-item" href="#">Санкт Петербург</a></li>
+                </ul>
+            </div>
             <div class="dropdown d-none d-sm-block ">
                 <a class=" dropdown-toggle" href="#" role="button" id="dropdownMenuLink1" data-bs-toggle="dropdown"
                    aria-expanded="false">
@@ -96,19 +110,35 @@
                 </div>
                 <div class="top-phone flex column">
                     <h2>+7 383 291 92 86</h2>
-                    <span><u>форма обратной связи</u></span>
+                    <div class="dropdown">
+                        <button class="btn btn-light number flex " type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span><u>форма обратной связи</u></span>
+                        </button>
+                        <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton">
+                            <h6>Заказать звонок</h6>
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Ваше имя" aria-label="Username" aria-describedby="input-group-left">
+                            </div>
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="номер телефона" aria-label="Username" aria-describedby="input-group-left">
+                            </div>
+                            <button type="button" class="btn btn-primary number-one">Заказать звонок</button>
+
+                        </ul>
+                    </div>
+
                 </div>
             </div>
         </div>
         <div class="header__bottom flex">
-            <div class="header__bottom_button blue flex">
+            <button class="header__bottom_button blue flex">
                 <div class="button-box flex column">
                     <div class="box-straight"></div>
                     <div class="box-straight"></div>
                     <div class="box-straight"></div>
                 </div>
                 <h3>Каталог</h3>
-            </div>
+            </button>
             <div class="input-group">
                 <input type="text" class="form-control" placeholder="Поиск по наименованию или артикулу"
                        aria-label="Username" aria-describedby="input-group-button-right">
@@ -161,9 +191,9 @@
                     <h4>4 430₽ <span>5 430₽</span></h4>
                 </div>
                 <div class="third flex">
-                    <div class="mini-box  blue flex">
+                    <button class="mini-box  blue flex">
                         <img src="images/cart%2011.png" alt="cart">
-                    </div>
+                    </button>
                 </div>
             </div>
             <div class="top-right flex d-none d-sm-flex">
@@ -177,9 +207,9 @@
                     <h4>4 430₽ <span>5 430₽</span></h4>
                 </div>
                 <div class="third flex">
-                    <div class="mini-box blue flex">
+                    <button class="mini-box blue flex">
                         <img src="images/cart%2011.png" alt="cart">
-                    </div>
+                    </button>
                 </div>
             </div>
         </div>
@@ -253,7 +283,7 @@
                 <span>по запросу</span>
             </div>
             <div class="section-mini-box flex">
-                <button><img src="images/cart%2011.png" alt="cart"><span>....</span>В корзину</button>
+                <button class="button flex"><img src="images/cart%2011.png" alt="cart">В корзину</button>
                 <img src="images/heart34.png" alt="heart">
                 <img src="images/diagrama.png" alt="diagrama" class="none">
             </div>
@@ -271,7 +301,7 @@
                 <span>5 430₽</span>
             </div>
             <div class="section-mini-box flex">
-                <button><img src="images/cart%2011.png" alt="cart"><span>....</span>В корзину</button>
+                <button class="button flex"><img src="images/cart%2011.png" alt="cart">В корзину</button>
                 <img src="images/heart34.png" alt="heart">
                 <img src="images/diagrama.png" alt="diagrama" class="none">
             </div>
@@ -289,7 +319,7 @@
                 <span>по запросу</span>
             </div>
             <div class="section-mini-box flex">
-                <button><img src="images/cart%2011.png" alt="cart"><span>....</span>В корзину</button>
+                <button class="button flex"><img src="images/cart%2011.png" alt="cart">В корзину</button>
                 <img src="images/heart34.png" alt="heart">
                 <img src="images/diagrama.png" alt="diagrama" class="none">
             </div>
@@ -307,7 +337,7 @@
                 <span>по запросу</span>
             </div>
             <div class="section-mini-box flex">
-                <button><img src="images/cart%2011.png" alt="cart"><span>....</span>В корзину</button>
+                <button class="button flex"><img src="images/cart%2011.png" alt="cart">В корзину</button>
                 <img src="images/heart34.png" alt="heart">
                 <img src="images/diagrama.png" alt="diagrama" class="none">
             </div>
@@ -325,7 +355,7 @@
                 <span>по запросу</span>
             </div>
             <div class="section-mini-box flex">
-                <button><img src="images/cart%2011.png" alt="cart"><span>....</span>В корзину</button>
+                <button class="button flex"><img src="images/cart%2011.png" alt="cart">В корзину</button>
                 <img src="images/heart34.png" alt="heart">
                 <img src="images/diagrama.png" alt="diagrama" class="none">
             </div>
@@ -343,7 +373,7 @@
                 <span>5 430₽</span>
             </div>
             <div class="section-mini-box flex">
-                <button><img src="images/cart%2011.png" alt="cart"><span>....</span>В корзину</button>
+                <button class="button flex"><img src="images/cart%2011.png" alt="cart">В корзину</button>
                 <img src="images/heart34.png" alt="heart">
                 <img src="images/diagrama.png" alt="diagrama" class="none">
             </div>
@@ -361,7 +391,7 @@
                 <span>по запросу</span>
             </div>
             <div class="section-mini-box flex">
-                <button><img src="images/cart%2011.png" alt="cart"><span>....</span>В корзину</button>
+                <button class="button flex"><img src="images/cart%2011.png" alt="cart">В корзину</button>
                 <img src="images/heart34.png" alt="heart">
                 <img src="images/diagrama.png" alt="diagrama" class="none">
             </div>
@@ -379,7 +409,7 @@
                 <span>по запросу</span>
             </div>
             <div class="section-mini-box flex">
-                <button><img src="images/cart%2011.png" alt="cart"><span>....</span>В корзину</button>
+                <button class="flex button"><img src="images/cart%2011.png" alt="cart">В корзину</button>
                 <img src="images/heart34.png" alt="heart">
                 <img src="images/diagrama.png" alt="diagrama">
             </div>
@@ -397,7 +427,7 @@
                 <span>по запросу</span>
             </div>
             <div class="section-mini-box flex">
-                <button><img src="images/cart%2011.png" alt="cart"><span>....</span>В корзину</button>
+                <button class="button flex"><img src="images/cart%2011.png" alt="cart">В корзину</button>
                 <img src="images/heart34.png" alt="heart">
                 <img src="images/diagrama.png" alt="diagrama" class="none">
             </div>
@@ -515,9 +545,9 @@
                 <h3>Подпишитесь на нашу расслыку и
                     вы первыми узнаете о скидках и акциях</h3>
             </div>
-            <div class="input-group">
+            <div class="input-group black ">
                 <input type="text" class="form-control" placeholder="Введите ваш email" aria-label="Username" aria-describedby="input-group-button-right">
-                <button type="button" class="btn btn-outline-secondary" id="input-group-button-right">Подписаться</button>
+                <button type="button" class="btn btn-outline-secondary" id="input-group-button-right1">Подписаться</button>
             </div>
             <div class="social flex">
                 <img src="images/facebook%201.png" alt="facebook">
@@ -527,8 +557,12 @@
             </div>
         </div>
     </div>
-    <h6>2017 © ООО «АВТ-ЗАП» - запчасти для акпп</h6>
+    <div class="foot flex"><h6>2017 © ООО «АВТ-ЗАП» - запчасти для акпп</h6></div>
 </footer>
+
+
+
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"

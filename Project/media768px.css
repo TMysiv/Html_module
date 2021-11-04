@@ -214,4 +214,52 @@
     .news h3{
         margin-left: 20px;
     }
+    .footer__wrap{
+        margin-left: 20px;
+    }
+    .footer__wrap_catalog,.footer__wrap_rubricator{
+        width: 30%;
+    }
+    .footer__wrap_information{
+        width: 40%;
+    }
+    .footer__wrap_catalog,.footer__wrap_rubricator{
+        row-gap: 15px;
+    }
+    .footer__wrap_information h4{
+        padding-top: 20px;
+    }
+    .footer__wrap_contact-adress{
+        width: 100%;
+    }
+    .contact-adress{
+        width: 60%;
+    }
+    .footer-text{
+        flex-direction: column;
+        padding-top: 0;
+        width: 40%;
+    }
+    .footer-info{
+        flex-direction: row;
+        padding-top: 30px;
+        font-size: 16px;
+        width: 80%;
+        column-gap: 10px;
+    }
+    .black{
+        width: 450px;
+        margin-left: 250px;
+    }
+    .social{
+        column-gap: 60px;
+        margin-top: 10px;
+        width: 300px;
+        margin-left: 220px;
+    }
+    .foot{
+        margin-top: 20px;
+        padding-top: 20px;
+        border: 1px solid #0C1A2A; ;
+    }
 }

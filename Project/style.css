@@ -76,7 +76,7 @@ a{
 .top-clock,.top-adress{
     align-items: center;
     column-gap: 10px;
-
+    color: #0F2438;
 }
 .clock-text{
     text-align: end;
@@ -433,12 +433,14 @@ header{
     font-size: 16px;
     line-height: 19px;
 }
-.section-mini-box span{
-    color:#005BB9 ;
-}
 .section-mini-box{
     column-gap: 15px;
     align-items: center;
+}
+.button{
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
 }
 .qaz p{
     font-size: 22px;
@@ -535,6 +537,7 @@ header{
 .footer__wrap{
     margin:0 auto;
     max-width: 1300px;
+    flex-wrap: wrap;
 }
 .footer__wrap h3{
     font-size: 18px;
@@ -586,7 +589,7 @@ header{
     width: 50%;
     row-gap: 10px;
 }
-.footer-text span,p{
+.footer-text > span{
     margin-bottom: 0;
     font-size: 18px;
     color: #858CAB;
@@ -623,4 +626,28 @@ footer h6{
     color: #737E9B;
     margin-left: 20px;
     padding-bottom: 20px;
+}
+.city{
+background: #0F2438;
+    height: 20px;
+    color: white;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.city:hover{
+    background: none;
+    color: white;
+}
+.user,.heart,.cart:hover{
+    cursor: pointer;
+}
+.number:hover{
+    background: none;
+    border: none;
+}
+.number-one{
+    width: 150px;
+    height: 35px;
 }

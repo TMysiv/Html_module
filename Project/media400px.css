@@ -188,4 +188,39 @@
     .news h3{
         margin-left: 20px;
     }
+    .footer__wrap{
+        flex-direction: column;
+    }
+    .contact-adress{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .footer-info{
+        flex-direction: column;
+    }
+    .footer-text{
+        width: 100%;
+    }
+    .black{
+        width: 300px;
+        margin-left: 0;
+    }
+    .btn-outline-secondary{
+        width: 104px;
+        height: 34px;
+        font-size: 12px;
+    }
+    .social{
+        margin-left: 0;
+        justify-content: flex-start;
+    }
+    .foot h6{
+        font-size: 12px;
+    }
+    .foot{
+        padding-top: 10px;
+    }
+    .section-mini-box button{
+        font-size: 12px;
+    }
 }
